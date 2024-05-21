@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncias anônimas</title>
+    <link rel="stylesheet" href="tela-inicial.css">
+</head>
+
+<body>
+    <div class="conteudo">
+        <header>
+            <img src="assets/logo.jpg" alt="">
+            <h1>Cadastrar</h1>
+        </header>
+        <form>
+            <div class="container">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario">
+            </div>
+
+            <div class="container">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+            </div>
+            
+            
+            <div class="container">
+                <label for="senha">Senha</label>
+                <span class="senha">
+                    <input type="password" id="senha">
+                    <ion-icon name="eye-off-outline" onclick="exibirSenha(this)"></ion-icon>
+                </span>
+            </div>
+
+            <div class="container">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone">
+            </div>
+
+            <div class="botoes">
+                <a href="index.html">
+                    <button type="button">Login</button>
+                </a>
+                <a href="index.html">
+                    <button type="button">Cadastrar</button>
+                </a>
+            </div>
+        </form>
+
+        <footer>
+            <div class="container-conecte-se">
+                <hr>
+                <p>conecte-se com </p>
+                <hr>
+            </div>
+            <div class="simbolos">
+                <img src="assets/simbolo-google.jpg" alt="">
+                <img src="assets/simbolo-facebook.png" alt="">
+                <img src="assets/simbolo-iphone.png" alt="">
+            </div>
+
+        </footer>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

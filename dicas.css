@@ -1,0 +1,15 @@
+.bloco{
+    background-color: #b8b9b970;
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+
+
+}
+
+p{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+}

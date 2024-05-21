@@ -1,0 +1,13 @@
+.menu-principal{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+img{
+    width: 60px;
+}

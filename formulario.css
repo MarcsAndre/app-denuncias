@@ -1,0 +1,30 @@
+.check-boxs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.check-boxs input{
+    width: auto;
+    height: auto;
+}
+
+.check-boxs label{
+    margin-bottom: 10px;
+}
+
+hr{
+    height: 0px;
+}
+
+textarea{
+    border-radius: 5px;
+    width: 100%;
+    height: 90px;
+    resize: none;
+}
+
+ion-icon{
+    position: inherit;
+    font-size: 30px;
+}

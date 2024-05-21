@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncias anônimas</title>
+    <link rel="stylesheet" href="tela-inicial.css">
+    <link rel="stylesheet" href="menu-principal.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <div class="conteudo">
+        <header>
+            <img src="assets/logo.jpg" alt="">
+            <h1>Formulário de denuncia</h1>
+        </header>
+
+        <form id="formulario">
+
+            <p>Por favor, preencha os campos abaixo para relatar um caso de poluição de água. Sua identidade será
+                mantida anônima</p>
+
+            <div class="check-boxs">
+                <p>TIPO DE POLUIÇÃO:</p>
+                <label>
+                    <input type="checkbox" name="opcao1" value="valor1">
+                    Despejo ilegal de resíduos
+                </label>
+                <label>
+                    <input type="checkbox" name="opcao2" value="valor2">
+                    Contaminação química
+                </label>
+                <label>
+                    <input type="checkbox" name="opcao3" value="valor3">
+                    Esgoto não tratado
+                </label>
+                <label>
+                    <input type="checkbox" name="opcao3" value="valor3">
+                    Outro:
+                    <input type="text" name="outro" id="">
+                </label>
+
+            </div>
+            <hr>
+            <div class="informacoes-adicionais">
+                <div class="bloco-de-denuncia">
+                    <p>DESCRIÇÃO DA POLUIÇÃO</p>
+                    <p>- Descreva o que você observou. Inclua detalhes como cor, odor, aparência, etc:</p>
+                    <textarea name="" id=""></textarea>
+                </div>
+
+                <div class="bloco-de-denuncia">
+                    <p>LOCALIZAÇÃO DA OCORRÊNCIA</p>
+                    <p>- Informe o local exato da poluição. Você pode usar o GPS ou inserir o endereço manualmente</p>
+                    <textarea name="" id=""></textarea>
+                </div>
+
+                <div class="bloco-de-denuncia">
+                    <p>DATA E HORA DO INCIDENTE</p>
+                    <p>- Informe quando você notou a poluição.</p>
+                    <textarea name="" id=""></textarea>
+                </div>
+
+                <div class="bloco-de-denuncia">
+                    <p>EVIDÊNCIAS FOTOGRÁFICAS OU EM VÍDEO</p>
+                    <p>- Insira fotos e/ou videos</p>
+                    <ion-icon name="attach-outline"></ion-icon>
+                </div>
+
+                <div class="bloco-de-denuncia">
+                    <p>INFORMAÇÕES ADICIONAIS</p>
+                    <p>- Se houver alguma informação adicional que você gostaria de adicionar, por favor, faça-o aqui:
+                    </p>
+                    <textarea name="" id=""></textarea>
+                </div>
+
+            </div>
+
+            <div class="check-boxs">
+                <p>Permanecer anônimo?</p>
+                <label >
+                    <input type="radio" name="" id="">
+                    Sim
+                </label>
+                <label>
+                    <input type="radio" name="" id="">
+                    Não
+                </label>
+
+            </div>
+            <div class="botoes">
+                <a href="menu-principal.html">
+                    <button type="button">Enviar denuncia</button>
+                </a>
+            </div>
+
+        </form>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

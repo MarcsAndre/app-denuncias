@@ -1,0 +1,122 @@
+body{
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    max-width: 500px;
+}
+
+img{
+    width: 140px;
+    border-radius: 25px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.botoes{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    width: 150px;
+    height: 30px;
+    box-shadow: 0 0 2px;
+    border-radius: 25px;
+    margin: 0 10px 0 10px;
+    background-color: #b3b3b3;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.container-conecte-se{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.container-conecte-se p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 355px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 30px;
+}
+
+
+.simbolos{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.simbolos img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 0 2px black;
+    height: 30px;
+    text-align: center;
+}
+
+ion-icon{
+    position: absolute;
+    top: 8px;
+    right: 14px;
+}
+
+ion-icon:hover{
+    cursor: pointer;
+}
+
+.senha{
+    position: relative;
+}
