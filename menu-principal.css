@@ -13,3 +13,20 @@ button{
 img{
     width: 60px;
 }
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  animation: spinner 1.2s linear infinite;
+  color: rgb(0, 183, 255);
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+<div class="menu-principal">
+  <div class="loading-spinner"></div>
+</div>
